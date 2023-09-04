@@ -1,2 +1,2 @@
 # FaizFood
-thinking to develop a frontend website for food category
+do contribute to it and make it responsive and fully working website 
