@@ -1,7 +1,7 @@
 *{
     margin: auto;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     
 }
 body{
@@ -29,22 +29,44 @@ a{
 }
 a:hover{
     color:white;
-    font-size: 2rem;
-    transition: 0.5s;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    transition: ease .3s;
+    /* font-size: 2rem; */
 }
-.homeBody{
-    background-color: gray;
-    height: 30vh;
-    width: 30%;
-    margin: 60px;
-    margin-left: 250px;
-    border-radius: 50%;
+
+.homepara{
+     /* background-color: blue; */
+     height: 20vh;
+     width:30%;
+     margin-top: 150px;
+     margin-left: 60px;
+     font-size: x-large;
+     color: white;
+     font-family: cursive;
+
 }
+
+
+
 button{
-    font-size: 1rem;
-    color: red;
+    margin-top: 35px;
+    margin-left: 50px;
+    color: white;
     background-color: black;
-    paddig:140px;
-    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px;
+    border-radius: 10%;
+    text-transform: uppercase;
+}
+
+button:hover {
+    margin-top: 35px;
+    margin-left: 50px;
+    color:white;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px;
+    border-radius: 10%;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
