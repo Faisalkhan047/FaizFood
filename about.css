@@ -1,0 +1,115 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+
+}
+
+body {
+    /* background-image: url('background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-image: url('background.jpg');
+    position: sticky;
+    padding-top: 20px;
+    ;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar,
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    margin-left: 80px;
+    margin-right: 2%;
+    padding-inline-start: 10px;
+}
+
+h1 {
+    margin-left: 2%;
+}
+
+li,
+a {
+    padding: 5px;
+}
+
+a {
+    color: red;
+    font-size: 1.5rem;
+    position: sticky;
+}
+
+a:hover {
+    color: white;
+    /* font-size: 2rem; */
+    transition: ease .3s;
+    /* font-size: 2rem; */
+}
+
+.restaurant{
+    height: 40vh;
+    width: 100%;
+    /* background-color:gray; */
+    display: flex;
+    flex-direction: row;
+    color:black;
+
+    
+}
+img{
+    height: 30vh;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.chefs{
+    margin-top: 80px;
+    height: 50vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.chef1{
+    height: 50vh;
+    width: 30%;
+    background-color: green;
+   border-radius: 10%;
+display: flex;
+    flex-direction: row;
+    float: right;
+    
+}
+.chef2{
+    height: 50vh;
+    width: 30%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    float: right;
+   border-radius: 10%;
+}
+.chef3 {
+    height: 50vh;
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    float:left;
+   border-radius: 10%;
+}

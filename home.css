@@ -79,4 +79,5 @@ button:hover {
     border-radius: 10%;
     text-transform: uppercase;
     transition: 0.5s;
+    cursor: pointer;
 }
